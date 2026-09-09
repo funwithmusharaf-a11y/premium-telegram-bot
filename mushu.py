@@ -7,8 +7,8 @@
 import os, io, uuid, asyncio, sqlite3, shutil, sys, subprocess, importlib.util
 
 # ---------------- CONFIG ----------------
-BOT_TOKEN = os.getenv("BOT_TOKEN", "PASTE_BOT_TOKEN_HERE").strip()
-OWNER_ID = int(os.getenv("OWNER_ID", "0") or 0)
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8632932107:AAH-CLZ-Wpa2-EmdAce5lNCapwuQC6_o_nM").strip()
+OWNER_ID = int(os.getenv("OWNER_ID=1871503885", "0") or 0)
 UPI_ID = os.getenv("UPI_ID", "saurabhstore@fam").strip()
 PORT = int(os.getenv("PORT", "10000") or 10000)
 DB_PATH = os.getenv("DB_PATH", "bot.db")
