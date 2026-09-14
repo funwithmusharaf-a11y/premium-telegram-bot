@@ -18,7 +18,7 @@ from telegram.ext import (
     filters,
 )
 
-TOKEN = os.getenv("BOT_TOKEN", "PASTE_YOUR_NEW_BOT_TOKEN_HERE")
+TOKEN = os.getenv("BOT_TOKEN", "8718329456:AAFBRu53AqtlZ9_qylLB2f8VMGm45AUAEeg")
 DB = "information.db"
 
 MAIN_MENU = ReplyKeyboardMarkup(
